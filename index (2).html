@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+</head>
+<body>
+
+  <form>
+  <label>Building Permit Search:
+    <input type="date" name="Building" required pattern="\d{4}-\d{2}-\d{2}">
+    <span class="validity"></span>
+  </label>
+  <p>
+    <button>Search</button>
+  </p>
+</form>
+
+
+   <div id="map"></div>
+
+     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321202.8136114538!2d-114.36802087163862!3d51.027288313514646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1645062416341!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+</body
